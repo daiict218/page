@@ -3,6 +3,14 @@
 </head>
 <body>
   <div>Hello world</div>
-  <button>Click me</button>
+  <button id="button" onclick="onButtonClick()">Click me</button>
+
+  <script>
+    function onButtonClick() {
+      console.log(document);
+      window.open('https://space-qa4.sprinklr.com/addAccount?accountType=WECHAT_THIRDPARTY');
+      window.close();
+    }
+  </script>
 </body>
 </html>
